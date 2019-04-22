@@ -4,7 +4,7 @@ Upload FT8 QSO log data to AARL LoTW server.
                                                                                                                                                                                                                                                             
 # SYNOPSIS                                                                                                                                   
 
-$ bash ./process_wsjtx_log.sh                                                                                                                
+$ bash ./process_ft8_log.sh                                                                                                                
                                                                                                                                            
 # DESCRIPTION                                                                                                                                
 Automated upload of new QSO records to LoTW (AARL Log book Of The World)                                                                   
@@ -25,7 +25,7 @@ and is never reset.
 See "configuration begin/end" section below.                                                                                               
                                                                                                                                            
 # EXAMPLE OUTPUT                                                                                                                             
-$ bash ~/process_wsjtx_log.sh                                                                                                              
+$ bash ~/process_ft8_log.sh                                                                                                              
 0. current date_time: 040419_134420 previous date_time 040419_093426                                                                       
 pi@192.168.29.134's password:                                                                                                              
 wsjtx_log.adi                                                                             100%   43KB   8.2MB/s   00:00  #                 
