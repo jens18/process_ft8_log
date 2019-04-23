@@ -57,9 +57,9 @@
 BACKUP_DIR="${HOME}/Projects/wsjtx_backup"
 TIMESTAMP_FILE=${BACKUP_DIR}/.process_wsjtx_log
 TQSL_STATION_LOCATION="Mountain View"
-TQSL_CERT_PWD="u5TWJnuC"
+TQSL_CERT_PWD="abcdefg"
 CURR_DATE=`date +%m%d%g_%H%M%S`
-HOST="192.168.29.134"
+HOST="192.168.1.123"
 LOGIN="pi"
 REF_FILE=".local/share/WSJT-X/wsjtx_log.adi"
 NC="/bin/nc" # nc to test if HOST is reachable
